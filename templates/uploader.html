@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Photo Uploader</title>
+    <link rel="stylesheet" type="text/css" href="../jquery_imageAreaSelect/css/imgareaselect-default.css" />   
+    <script type="text/javascript" src="../jquery_imageAreaSelect/scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="../jquery_imageAreaSelect/scripts/jquery.imgareaselect.pack.js"></script> 
+    <script type="text/javascript" src="../scripts/uploader.js/"></script>
+    <script type="text/javascript" src="../scripts/jquery.jfcrop.js/"></script>
+   
+  </head>
+  <body class="container" >
+    <h1>Photo Uploader</h1>
+    <div>
+      <p><input id="imgpath" type='file'></p>
+    </div>
+    <div >
+      <img id="sample" src="../static/circle.png">
+    </div>
+
+    <!-- Canvas requires HTML5 compatible browser -->
+    <canvas id="myCanvas" style="border:1px solid #000000;"></canvas>  
+    <button id="submitbtn" >Done</button>
+  </body>
+</html>
