@@ -8,9 +8,9 @@ $(document).ready(function () {
             reader.onload = function(e){
               $('#sample').attr('src', e.target.result);
             }
-            reader.readAsDataURL(input.files[0])
-          }
-        }
+            reader.readAsDataURL(input.files[0]);
+          };
+        };
 
         readURL(this);
 
@@ -21,4 +21,4 @@ $(document).ready(function () {
 
     $('img#sample').jfcrop();
 
-
+});

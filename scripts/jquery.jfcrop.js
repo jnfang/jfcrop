@@ -6,7 +6,7 @@
     $.fn.jfcrop = function( options) {
 
         // default settings, can be changed by passing in options
-        """
+        /*
         canvasid is the id of the canvas element on page. will be where image preview is shown
         aspectRatio, handles are a part of imageAreaSelect parameters 
         onlyenc_URL: if set true handler will be executed on a FormData object, if false handler will be executed on the dataURL converted from canvas
@@ -14,7 +14,7 @@
         buttonid: id of button that triggers posting of final cropped image
         handler: function that is executed on cropped file or dataURL
         imgName: if sending post request, will save file under this name
-        """
+        */
         var settings = $.extend({
             canvasid: 'myCanvas',
             aspectRatio: '1:1',
